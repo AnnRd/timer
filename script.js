@@ -11,9 +11,15 @@ function timer(){
   let seconds = Math.floor(gap / 1000) % 60;
   console.log(days);
 
-  document.getElementById('days').innerText = days;
-  document.getElementById('hours').innerText = hours;
-  document.getElementById('minutes').innerText = minutes;
-  document.getElementById('seconds').innerText = seconds;
+  if(gap < 0){
+    document.getElementById('group').innerText = 'С Новым 2023 годом!'
+  }
+
+  document.getElementById('days').innerText = days + ' дней';
+  document.getElementById('hours').innerText = hours + ' часов';
+  document.getElementById('minutes').innerText = minutes + ' минут';
+  document.getElementById('seconds').innerText = seconds + ' секунд';
 }
 timer()
+
+setInterval(timer, 1000);

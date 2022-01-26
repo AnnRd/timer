@@ -1,23 +1,33 @@
+body{
+  background-image: url(/snowflakes-background.jpg);
+  background-size: 100%;
+}
+
 .container{
 display: flex;
 justify-content: center;
+margin-top: 120px;
 }
 
 h3{
-/* margin: 30px 30px 30px 30px; */
 text-align: center;
 font-size: 40px;
-color: rgb(42, 42, 133);
+color: rgb(13, 13, 168);
 }
 .group{
   text-align: center;
   display: inline-flex;
+  font-size: 40px;
+  color: rgb(18, 17, 87);
 }
 
 .nums{
   height: 150px;
-  width: 150px;
-  background-color: rgb(92, 193, 240);
+  width: 200px;
+  background-color: rgb(139, 193, 218);
   border-radius: 15%;
   margin: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
 }
