@@ -1,0 +1,23 @@
+.container{
+display: flex;
+justify-content: center;
+}
+
+h3{
+/* margin: 30px 30px 30px 30px; */
+text-align: center;
+font-size: 40px;
+color: rgb(42, 42, 133);
+}
+.group{
+  text-align: center;
+  display: inline-flex;
+}
+
+.nums{
+  height: 150px;
+  width: 150px;
+  background-color: rgb(92, 193, 240);
+  border-radius: 15%;
+  margin: 10px;
+}
